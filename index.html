@@ -4,34 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SystemBSI & GhostNode | Seu Arsenal Digital</title>
-    
-    <!-- Google Fonts: Space Grotesk (Títulos) + Inter (Texto) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
-    
-    <!-- Font Awesome (Ícones) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
-    <!-- Nosso CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1 class="animate-on-scroll">Desbloqueie seu Potencial. <br>Domine o Código. <span class="text-red">Infiltre-se na Elite.</span></h1>
-                <p class="subtitle animate-on-scroll">A plataforma definitiva para programadores e especialistas em segurança que buscam conhecimento de ponta e acesso a ferramentas exclusivas.</p>
-                <a href="https://systems-bsi.catalog.yampi.io/acesso-vitalicio-ao-servidor-ghostnode/p" target="_blank" class="cta-button animate-on-scroll">
-                    <i class="fa-solid fa-bolt"></i> Quero Acesso Imediato
-                </a>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="nav-logo">SystemBSI <span class="text-red">|</span> GhostNode</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="loja.html">Loja</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
             </div>
-        </div>
+        </nav>
     </header>
 
     <main>
-        <!-- Seção: Apresentação do Projeto -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="animate-on-scroll">Desbloqueie seu Potencial. <br>Domine o Código. <span class="text-red">Infiltre-se na Elite.</span></h1>
+                    <p class="subtitle animate-on-scroll">A plataforma definitiva para programadores e especialistas em segurança que buscam conhecimento de ponta e acesso a ferramentas exclusivas.</p>
+                    <a href="loja.html" class="cta-button animate-on-scroll">
+                        <i class="fa-solid fa-bolt"></i> Quero Acesso Imediato
+                    </a>
+                </div>
+            </div>
+        </section>
+
         <section id="apresentacao" class="section-dark">
             <div class="container">
                 <h2 class="section-title animate-on-scroll">Nossa Missão: <span class="text-blue">Forjar</span> os Próximos Líderes Digitais</h2>
@@ -41,34 +53,29 @@
             </div>
         </section>
 
-        <!-- Seção: Destaques dos Cursos -->
         <section id="cursos" class="section-darker">
             <div class="container">
                 <h2 class="section-title animate-on-scroll">Seu Arsenal de Conhecimento</h2>
                 <div class="cursos-grid">
-                    <!-- Card 1 -->
                     <div class="curso-card animate-on-scroll">
                         <i class="fa-solid fa-code card-icon text-blue"></i>
                         <h3>Desenvolvimento Avançado</h3>
                         <p>Domine as linguagens e tecnologias que o mercado exige. Crie sistemas robustos, seguros e escaláveis do zero.</p>
                     </div>
-                    <!-- Card 2 -->
                     <div class="curso-card animate-on-scroll">
                         <i class="fa-solid fa-shield-halved card-icon text-red"></i>
                         <h3>Hacking Ético: Invasão e Defesa</h3>
                         <p>Aprenda a pensar como um invasor para construir defesas impenetráveis. Técnicas de pentest, análise de vulnerabilidades e mais.</p>
                     </div>
-                    <!-- Card 3 -->
                     <div class="curso-card animate-on-scroll">
                         <i class="fa-solid fa-server card-icon"></i>
                         <h3>Acesso Exclusivo: GhostNode</h3>
-                        <p>Seu laboratório de prática privado. Um servidor de alta performance para hospedar projetos e simular cenários de segurança em um ambiente controlado.</p>
+                        <p>Seu laboratório de prática privado. Um servidor de alta performance para hospedar projetos e simular cenários de segurança.</p>
                     </div>
                 </div>
             </div>
         </section>
         
-        <!-- Seção: Comunidade e Links -->
         <section id="comunidade" class="section-dark">
             <div class="container">
                 <h2 class="section-title animate-on-scroll">Conecte-se à Comunidade</h2>
@@ -84,8 +91,32 @@
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <p>© Todos os direitos reservados a SystemBSI | GhostNode – 2025</p>
+        <div class="container footer-content">
+            <div class="footer-about">
+                <h4>SystemBSI <span class="text-red">|</span> GhostNode</h4>
+                <p>Forjando os próximos líderes digitais com conhecimento em desenvolvimento e segurança.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="loja.html">Loja</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Comunidade</h4>
+                <div class="social-icons">
+                    <a href="https://discord.gg/wyyzRjTsb2" target="_blank" aria-label="Discord SystemBSI"><i class="fa-brands fa-discord"></i></a>
+                    <a href="https://www.instagram.com/systems_bsi/" target="_blank" aria-label="Instagram SystemBSI"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://discord.gg/strQwUSaJe" target="_blank" aria-label="Discord GhostNode"><i class="fa-brands fa-discord text-red"></i></a>
+                    <a href="https://www.instagram.com/ghostnode_/" target="_blank" aria-label="Instagram GhostNode"><i class="fa-brands fa-instagram text-red"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 SystemBSI | GhostNode. Todos direitos reservados (Desenvolvido por RA Corporation).</p>
         </div>
     </footer>
 
